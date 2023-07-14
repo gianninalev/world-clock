@@ -5,7 +5,7 @@ body {
 .container {
   max-width: 400px;
   margin: 60px auto;
-  padding: 15px 50px;
+  padding: 30px;
   border: 10px;
   border-radius: 12px;
   background-color: #f4f9f4;
@@ -14,7 +14,7 @@ body {
   font-family: "Righteous", cursive;
   font-size: 15px;
   color: #74b49b;
-  margin-bottom: 25px;
+  margin-bottom: 28px;
 }
 
 select {
@@ -36,7 +36,7 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 25px;
 }
 footer {
   text-align: center;
@@ -44,21 +44,20 @@ footer {
   color: #757a79;
 }
 
-footer a {
-  color: #74b49b;
+.date {
+  opacity: 0.75;
 }
 .city {
   display: flex;
   justify-content: space-between;
   border-bottom: 2px dashed;
-  padding: 20px 0;
-  line-height: 0.5;
-  margin: 10px 0;
+  border-color: #ddeedf;
+
+  line-height: 0.9;
 }
 
 .city:last-of-type {
   border: none;
-  padding: 5px;
 }
 
 .time {
