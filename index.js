@@ -6,9 +6,7 @@ function updateTime() {
 
   limaDateElement.innerHTML = limaTime.format("MMMM Do YYYY");
   limaTimeElement.innerHTML = limaTime.format("h:mm:ss [<small>]A[</small>]");
-}
 
-{
   let osloElement = document.querySelector("#oslo");
   let osloDateElement = osloElement.querySelector(".date");
   let osloTimeElement = osloElement.querySelector(".time");
