@@ -17,13 +17,15 @@
   <body>
     <div class="container">
       <h1>WORLD CLOCK</h1>
-      <select>
+      <div>
+      <select id="city">
         <option value="">Choose a city...</option>
-        <option value="">Lisbon</option>
-        <option value="">Buenos Aires</option>
-        <option value="">New Delhi</option>
+        <option value="Europe/Lisbon">Lisbon</option>
+        <option value="America/Buenos_Aires">Buenos Aires</option>
+        <option value="Asia/Seoul">Seoul</option>
       </select>
 
+      <div id="cities"> 
       <div class="city" id="lima">
         <div>
           <h2>Lima</h2>
@@ -40,6 +42,7 @@
         <div>
           <div class="time"></div>
         </div>
+      </div>
       </div>
 
       <script src="index.js"></script>
